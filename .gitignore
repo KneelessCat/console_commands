@@ -10,3 +10,6 @@ thumbs.db
 # Executables
 bin/*
 build/*
+
+# Code Blocks
+*.cbp
