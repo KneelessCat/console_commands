@@ -1,0 +1,1450 @@
+GNU Make 4.4.1
+Built for x86_64-suse-linux-gnu
+Copyright (C) 1988-2023 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Reading makefiles...
+Reading makefile 'makefile'...
+Reading makefile 'build/main.d' (search path) (don't care) (no ~ expansion)...
+Updating makefiles....
+ Considering target file 'makefile'.
+  Looking for an implicit rule for 'makefile'.
+   Trying pattern rule '%: %.o' with stem 'makefile'.
+   Trying implicit prerequisite 'makefile.o'.
+   Not found 'makefile.o'.
+   Trying pattern rule '%: %.c' with stem 'makefile'.
+   Trying implicit prerequisite 'makefile.c'.
+   Not found 'makefile.c'.
+   Trying pattern rule '%: %.cc' with stem 'makefile'.
+   Trying implicit prerequisite 'makefile.cc'.
+   Not found 'makefile.cc'.
+   Trying pattern rule '%: %.C' with stem 'makefile'.
+   Trying implicit prerequisite 'makefile.C'.
+   Not found 'makefile.C'.
+   Trying pattern rule '%: %.cpp' with stem 'makefile'.
+   Trying implicit prerequisite 'makefile.cpp'.
+   Not found 'makefile.cpp'.
+   Trying pattern rule '%: %.p' with stem 'makefile'.
+   Trying implicit prerequisite 'makefile.p'.
+   Not found 'makefile.p'.
+   Trying pattern rule '%: %.f' with stem 'makefile'.
+   Trying implicit prerequisite 'makefile.f'.
+   Not found 'makefile.f'.
+   Trying pattern rule '%: %.F' with stem 'makefile'.
+   Trying implicit prerequisite 'makefile.F'.
+   Not found 'makefile.F'.
+   Trying pattern rule '%: %.m' with stem 'makefile'.
+   Trying implicit prerequisite 'makefile.m'.
+   Not found 'makefile.m'.
+   Trying pattern rule '%: %.r' with stem 'makefile'.
+   Trying implicit prerequisite 'makefile.r'.
+   Not found 'makefile.r'.
+   Trying pattern rule '%: %.s' with stem 'makefile'.
+   Trying implicit prerequisite 'makefile.s'.
+   Not found 'makefile.s'.
+   Trying pattern rule '%: %.S' with stem 'makefile'.
+   Trying implicit prerequisite 'makefile.S'.
+   Not found 'makefile.S'.
+   Trying pattern rule '%: %.mod' with stem 'makefile'.
+   Trying implicit prerequisite 'makefile.mod'.
+   Not found 'makefile.mod'.
+   Trying pattern rule '%: %.sh' with stem 'makefile'.
+   Trying implicit prerequisite 'makefile.sh'.
+   Not found 'makefile.sh'.
+   Trying pattern rule '%:: %,v' with stem 'makefile'.
+   Trying implicit prerequisite 'makefile,v'.
+   Not found 'makefile,v'.
+   Trying pattern rule '%:: RCS/%,v' with stem 'makefile'.
+   Trying implicit prerequisite 'RCS/makefile,v'.
+   Not found 'RCS/makefile,v'.
+   Trying pattern rule '%:: RCS/%' with stem 'makefile'.
+   Trying implicit prerequisite 'RCS/makefile'.
+   Not found 'RCS/makefile'.
+   Trying pattern rule '%:: s.%' with stem 'makefile'.
+   Trying implicit prerequisite 's.makefile'.
+   Not found 's.makefile'.
+   Trying pattern rule '%:: SCCS/s.%' with stem 'makefile'.
+   Trying implicit prerequisite 'SCCS/s.makefile'.
+   Not found 'SCCS/s.makefile'.
+   Trying harder.
+   Trying pattern rule '%: %.o' with stem 'makefile'.
+   Trying implicit prerequisite 'makefile.o'.
+   Looking for a rule with intermediate file 'makefile.o'.
+    Avoiding implicit rule recursion for rule '%: %.o'.
+    Trying pattern rule '%.o: %.c' with stem 'makefile'.
+    Trying implicit prerequisite 'makefile.c'.
+    Not found 'makefile.c'.
+    Trying pattern rule '%.o: %.cc' with stem 'makefile'.
+    Trying implicit prerequisite 'makefile.cc'.
+    Not found 'makefile.cc'.
+    Trying pattern rule '%.o: %.C' with stem 'makefile'.
+    Trying implicit prerequisite 'makefile.C'.
+    Not found 'makefile.C'.
+    Trying pattern rule '%.o: %.cpp' with stem 'makefile'.
+    Trying implicit prerequisite 'makefile.cpp'.
+    Not found 'makefile.cpp'.
+    Trying pattern rule '%.o: %.p' with stem 'makefile'.
+    Trying implicit prerequisite 'makefile.p'.
+    Not found 'makefile.p'.
+    Trying pattern rule '%.o: %.f' with stem 'makefile'.
+    Trying implicit prerequisite 'makefile.f'.
+    Not found 'makefile.f'.
+    Trying pattern rule '%.o: %.F' with stem 'makefile'.
+    Trying implicit prerequisite 'makefile.F'.
+    Not found 'makefile.F'.
+    Trying pattern rule '%.o: %.m' with stem 'makefile'.
+    Trying implicit prerequisite 'makefile.m'.
+    Not found 'makefile.m'.
+    Trying pattern rule '%.o: %.r' with stem 'makefile'.
+    Trying implicit prerequisite 'makefile.r'.
+    Not found 'makefile.r'.
+    Trying pattern rule '%.o: %.s' with stem 'makefile'.
+    Trying implicit prerequisite 'makefile.s'.
+    Not found 'makefile.s'.
+    Trying pattern rule '%.o: %.S' with stem 'makefile'.
+    Trying implicit prerequisite 'makefile.S'.
+    Not found 'makefile.S'.
+    Trying pattern rule '%.o: %.mod' with stem 'makefile'.
+    Trying implicit prerequisite 'makefile.mod'.
+    Not found 'makefile.mod'.
+    Trying pattern rule '%:: %,v' with stem 'makefile.o'.
+    Trying implicit prerequisite 'makefile.o,v'.
+    Not found 'makefile.o,v'.
+    Trying pattern rule '%:: RCS/%,v' with stem 'makefile.o'.
+    Trying implicit prerequisite 'RCS/makefile.o,v'.
+    Not found 'RCS/makefile.o,v'.
+    Trying pattern rule '%:: RCS/%' with stem 'makefile.o'.
+    Trying implicit prerequisite 'RCS/makefile.o'.
+    Not found 'RCS/makefile.o'.
+    Trying pattern rule '%:: s.%' with stem 'makefile.o'.
+    Trying implicit prerequisite 's.makefile.o'.
+    Not found 's.makefile.o'.
+    Trying pattern rule '%:: SCCS/s.%' with stem 'makefile.o'.
+    Trying implicit prerequisite 'SCCS/s.makefile.o'.
+    Not found 'SCCS/s.makefile.o'.
+    Trying harder.
+    Trying pattern rule '%.o: %.c' with stem 'makefile'.
+    Trying implicit prerequisite 'makefile.c'.
+    Looking for a rule with intermediate file 'makefile.c'.
+     Avoiding implicit rule recursion for rule '%: %.o'.
+     Avoiding implicit rule recursion for rule '%.o: %.c'.
+     Trying pattern rule '%.c: %.y' with stem 'makefile'.
+     Trying implicit prerequisite 'makefile.y'.
+     Not found 'makefile.y'.
+     Trying pattern rule '%.c: %.l' with stem 'makefile'.
+     Trying implicit prerequisite 'makefile.l'.
+     Not found 'makefile.l'.
+     Trying pattern rule '%.c: %.w' with stem 'makefile'.
+     Trying implicit prerequisite 'makefile.w'.
+     Not found 'makefile.w'.
+     Trying pattern rule '%.c: %.w %.ch' with stem 'makefile'.
+     Trying implicit prerequisite 'makefile.w'.
+     Not found 'makefile.w'.
+     Trying pattern rule '%:: %,v' with stem 'makefile.c'.
+     Trying implicit prerequisite 'makefile.c,v'.
+     Not found 'makefile.c,v'.
+     Trying pattern rule '%:: RCS/%,v' with stem 'makefile.c'.
+     Trying implicit prerequisite 'RCS/makefile.c,v'.
+     Not found 'RCS/makefile.c,v'.
+     Trying pattern rule '%:: RCS/%' with stem 'makefile.c'.
+     Trying implicit prerequisite 'RCS/makefile.c'.
+     Not found 'RCS/makefile.c'.
+     Trying pattern rule '%:: s.%' with stem 'makefile.c'.
+     Trying implicit prerequisite 's.makefile.c'.
+     Not found 's.makefile.c'.
+     Trying pattern rule '%:: SCCS/s.%' with stem 'makefile.c'.
+     Trying implicit prerequisite 'SCCS/s.makefile.c'.
+     Not found 'SCCS/s.makefile.c'.
+     Trying harder.
+     Trying pattern rule '%.c: %.y' with stem 'makefile'.
+     Trying implicit prerequisite 'makefile.y'.
+     Looking for a rule with intermediate file 'makefile.y'.
+      Avoiding implicit rule recursion for rule '%: %.o'.
+      Avoiding implicit rule recursion for rule '%.o: %.c'.
+      Avoiding implicit rule recursion for rule '%.c: %.y'.
+      Trying pattern rule '%:: %,v' with stem 'makefile.y'.
+      Trying implicit prerequisite 'makefile.y,v'.
+      Not found 'makefile.y,v'.
+      Trying pattern rule '%:: RCS/%,v' with stem 'makefile.y'.
+      Trying implicit prerequisite 'RCS/makefile.y,v'.
+      Not found 'RCS/makefile.y,v'.
+      Trying pattern rule '%:: RCS/%' with stem 'makefile.y'.
+      Trying implicit prerequisite 'RCS/makefile.y'.
+      Not found 'RCS/makefile.y'.
+      Trying pattern rule '%:: s.%' with stem 'makefile.y'.
+      Trying implicit prerequisite 's.makefile.y'.
+      Not found 's.makefile.y'.
+      Trying pattern rule '%:: SCCS/s.%' with stem 'makefile.y'.
+      Trying implicit prerequisite 'SCCS/s.makefile.y'.
+      Not found 'SCCS/s.makefile.y'.
+      Trying harder.
+     No implicit rule found for 'makefile.y'.
+     Rejecting rule '%.c: %.y' due to impossible prerequisite 'makefile.y'.
+     Trying pattern rule '%.c: %.l' with stem 'makefile'.
+     Trying implicit prerequisite 'makefile.l'.
+     Looking for a rule with intermediate file 'makefile.l'.
+      Avoiding implicit rule recursion for rule '%: %.o'.
+      Avoiding implicit rule recursion for rule '%.o: %.c'.
+      Avoiding implicit rule recursion for rule '%.c: %.l'.
+      Trying pattern rule '%:: %,v' with stem 'makefile.l'.
+      Trying implicit prerequisite 'makefile.l,v'.
+      Not found 'makefile.l,v'.
+      Trying pattern rule '%:: RCS/%,v' with stem 'makefile.l'.
+      Trying implicit prerequisite 'RCS/makefile.l,v'.
+      Not found 'RCS/makefile.l,v'.
+      Trying pattern rule '%:: RCS/%' with stem 'makefile.l'.
+      Trying implicit prerequisite 'RCS/makefile.l'.
+      Not found 'RCS/makefile.l'.
+      Trying pattern rule '%:: s.%' with stem 'makefile.l'.
+      Trying implicit prerequisite 's.makefile.l'.
+      Not found 's.makefile.l'.
+      Trying pattern rule '%:: SCCS/s.%' with stem 'makefile.l'.
+      Trying implicit prerequisite 'SCCS/s.makefile.l'.
+      Not found 'SCCS/s.makefile.l'.
+      Trying harder.
+     No implicit rule found for 'makefile.l'.
+     Rejecting rule '%.c: %.l' due to impossible prerequisite 'makefile.l'.
+     Trying pattern rule '%.c: %.w' with stem 'makefile'.
+     Trying implicit prerequisite 'makefile.w'.
+     Looking for a rule with intermediate file 'makefile.w'.
+      Avoiding implicit rule recursion for rule '%: %.o'.
+      Avoiding implicit rule recursion for rule '%.o: %.c'.
+      Avoiding implicit rule recursion for rule '%.c: %.w'.
+      Trying pattern rule '%:: %,v' with stem 'makefile.w'.
+      Trying implicit prerequisite 'makefile.w,v'.
+      Not found 'makefile.w,v'.
+      Trying pattern rule '%:: RCS/%,v' with stem 'makefile.w'.
+      Trying implicit prerequisite 'RCS/makefile.w,v'.
+      Not found 'RCS/makefile.w,v'.
+      Trying pattern rule '%:: RCS/%' with stem 'makefile.w'.
+      Trying implicit prerequisite 'RCS/makefile.w'.
+      Not found 'RCS/makefile.w'.
+      Trying pattern rule '%:: s.%' with stem 'makefile.w'.
+      Trying implicit prerequisite 's.makefile.w'.
+      Not found 's.makefile.w'.
+      Trying pattern rule '%:: SCCS/s.%' with stem 'makefile.w'.
+      Trying implicit prerequisite 'SCCS/s.makefile.w'.
+      Not found 'SCCS/s.makefile.w'.
+      Trying harder.
+     No implicit rule found for 'makefile.w'.
+     Rejecting rule '%.c: %.w' due to impossible prerequisite 'makefile.w'.
+     Trying pattern rule '%.c: %.w %.ch' with stem 'makefile'.
+     Rejecting rule '%.c: %.w %.ch' due to impossible implicit prerequisite 'makefile.w'.
+    No implicit rule found for 'makefile.c'.
+    Rejecting rule '%.o: %.c' due to impossible prerequisite 'makefile.c'.
+    Trying pattern rule '%.o: %.cc' with stem 'makefile'.
+    Trying implicit prerequisite 'makefile.cc'.
+    Looking for a rule with intermediate file 'makefile.cc'.
+     Avoiding implicit rule recursion for rule '%: %.o'.
+     Avoiding implicit rule recursion for rule '%.o: %.cc'.
+     Trying pattern rule '%:: %,v' with stem 'makefile.cc'.
+     Trying implicit prerequisite 'makefile.cc,v'.
+     Not found 'makefile.cc,v'.
+     Trying pattern rule '%:: RCS/%,v' with stem 'makefile.cc'.
+     Trying implicit prerequisite 'RCS/makefile.cc,v'.
+     Not found 'RCS/makefile.cc,v'.
+     Trying pattern rule '%:: RCS/%' with stem 'makefile.cc'.
+     Trying implicit prerequisite 'RCS/makefile.cc'.
+     Not found 'RCS/makefile.cc'.
+     Trying pattern rule '%:: s.%' with stem 'makefile.cc'.
+     Trying implicit prerequisite 's.makefile.cc'.
+     Not found 's.makefile.cc'.
+     Trying pattern rule '%:: SCCS/s.%' with stem 'makefile.cc'.
+     Trying implicit prerequisite 'SCCS/s.makefile.cc'.
+     Not found 'SCCS/s.makefile.cc'.
+     Trying harder.
+    No implicit rule found for 'makefile.cc'.
+    Rejecting rule '%.o: %.cc' due to impossible prerequisite 'makefile.cc'.
+    Trying pattern rule '%.o: %.C' with stem 'makefile'.
+    Trying implicit prerequisite 'makefile.C'.
+    Looking for a rule with intermediate file 'makefile.C'.
+     Avoiding implicit rule recursion for rule '%: %.o'.
+     Avoiding implicit rule recursion for rule '%.o: %.C'.
+     Trying pattern rule '%:: %,v' with stem 'makefile.C'.
+     Trying implicit prerequisite 'makefile.C,v'.
+     Not found 'makefile.C,v'.
+     Trying pattern rule '%:: RCS/%,v' with stem 'makefile.C'.
+     Trying implicit prerequisite 'RCS/makefile.C,v'.
+     Not found 'RCS/makefile.C,v'.
+     Trying pattern rule '%:: RCS/%' with stem 'makefile.C'.
+     Trying implicit prerequisite 'RCS/makefile.C'.
+     Not found 'RCS/makefile.C'.
+     Trying pattern rule '%:: s.%' with stem 'makefile.C'.
+     Trying implicit prerequisite 's.makefile.C'.
+     Not found 's.makefile.C'.
+     Trying pattern rule '%:: SCCS/s.%' with stem 'makefile.C'.
+     Trying implicit prerequisite 'SCCS/s.makefile.C'.
+     Not found 'SCCS/s.makefile.C'.
+     Trying harder.
+    No implicit rule found for 'makefile.C'.
+    Rejecting rule '%.o: %.C' due to impossible prerequisite 'makefile.C'.
+    Trying pattern rule '%.o: %.cpp' with stem 'makefile'.
+    Trying implicit prerequisite 'makefile.cpp'.
+    Looking for a rule with intermediate file 'makefile.cpp'.
+     Avoiding implicit rule recursion for rule '%: %.o'.
+     Avoiding implicit rule recursion for rule '%.o: %.cpp'.
+     Trying pattern rule '%:: %,v' with stem 'makefile.cpp'.
+     Trying implicit prerequisite 'makefile.cpp,v'.
+     Not found 'makefile.cpp,v'.
+     Trying pattern rule '%:: RCS/%,v' with stem 'makefile.cpp'.
+     Trying implicit prerequisite 'RCS/makefile.cpp,v'.
+     Not found 'RCS/makefile.cpp,v'.
+     Trying pattern rule '%:: RCS/%' with stem 'makefile.cpp'.
+     Trying implicit prerequisite 'RCS/makefile.cpp'.
+     Not found 'RCS/makefile.cpp'.
+     Trying pattern rule '%:: s.%' with stem 'makefile.cpp'.
+     Trying implicit prerequisite 's.makefile.cpp'.
+     Not found 's.makefile.cpp'.
+     Trying pattern rule '%:: SCCS/s.%' with stem 'makefile.cpp'.
+     Trying implicit prerequisite 'SCCS/s.makefile.cpp'.
+     Not found 'SCCS/s.makefile.cpp'.
+     Trying harder.
+    No implicit rule found for 'makefile.cpp'.
+    Rejecting rule '%.o: %.cpp' due to impossible prerequisite 'makefile.cpp'.
+    Trying pattern rule '%.o: %.p' with stem 'makefile'.
+    Trying implicit prerequisite 'makefile.p'.
+    Looking for a rule with intermediate file 'makefile.p'.
+     Avoiding implicit rule recursion for rule '%: %.o'.
+     Avoiding implicit rule recursion for rule '%.o: %.p'.
+     Trying pattern rule '%.p: %.web' with stem 'makefile'.
+     Trying implicit prerequisite 'makefile.web'.
+     Not found 'makefile.web'.
+     Trying pattern rule '%:: %,v' with stem 'makefile.p'.
+     Trying implicit prerequisite 'makefile.p,v'.
+     Not found 'makefile.p,v'.
+     Trying pattern rule '%:: RCS/%,v' with stem 'makefile.p'.
+     Trying implicit prerequisite 'RCS/makefile.p,v'.
+     Not found 'RCS/makefile.p,v'.
+     Trying pattern rule '%:: RCS/%' with stem 'makefile.p'.
+     Trying implicit prerequisite 'RCS/makefile.p'.
+     Not found 'RCS/makefile.p'.
+     Trying pattern rule '%:: s.%' with stem 'makefile.p'.
+     Trying implicit prerequisite 's.makefile.p'.
+     Not found 's.makefile.p'.
+     Trying pattern rule '%:: SCCS/s.%' with stem 'makefile.p'.
+     Trying implicit prerequisite 'SCCS/s.makefile.p'.
+     Not found 'SCCS/s.makefile.p'.
+     Trying harder.
+     Trying pattern rule '%.p: %.web' with stem 'makefile'.
+     Trying implicit prerequisite 'makefile.web'.
+     Looking for a rule with intermediate file 'makefile.web'.
+      Avoiding implicit rule recursion for rule '%: %.o'.
+      Avoiding implicit rule recursion for rule '%.o: %.p'.
+      Avoiding implicit rule recursion for rule '%.p: %.web'.
+      Trying pattern rule '%:: %,v' with stem 'makefile.web'.
+      Trying implicit prerequisite 'makefile.web,v'.
+      Not found 'makefile.web,v'.
+      Trying pattern rule '%:: RCS/%,v' with stem 'makefile.web'.
+      Trying implicit prerequisite 'RCS/makefile.web,v'.
+      Not found 'RCS/makefile.web,v'.
+      Trying pattern rule '%:: RCS/%' with stem 'makefile.web'.
+      Trying implicit prerequisite 'RCS/makefile.web'.
+      Not found 'RCS/makefile.web'.
+      Trying pattern rule '%:: s.%' with stem 'makefile.web'.
+      Trying implicit prerequisite 's.makefile.web'.
+      Not found 's.makefile.web'.
+      Trying pattern rule '%:: SCCS/s.%' with stem 'makefile.web'.
+      Trying implicit prerequisite 'SCCS/s.makefile.web'.
+      Not found 'SCCS/s.makefile.web'.
+      Trying harder.
+     No implicit rule found for 'makefile.web'.
+     Rejecting rule '%.p: %.web' due to impossible prerequisite 'makefile.web'.
+    No implicit rule found for 'makefile.p'.
+    Rejecting rule '%.o: %.p' due to impossible prerequisite 'makefile.p'.
+    Trying pattern rule '%.o: %.f' with stem 'makefile'.
+    Trying implicit prerequisite 'makefile.f'.
+    Looking for a rule with intermediate file 'makefile.f'.
+     Avoiding implicit rule recursion for rule '%: %.o'.
+     Avoiding implicit rule recursion for rule '%.o: %.f'.
+     Trying pattern rule '%.f: %.F' with stem 'makefile'.
+     Trying implicit prerequisite 'makefile.F'.
+     Not found 'makefile.F'.
+     Trying pattern rule '%.f: %.r' with stem 'makefile'.
+     Trying implicit prerequisite 'makefile.r'.
+     Not found 'makefile.r'.
+     Trying pattern rule '%:: %,v' with stem 'makefile.f'.
+     Trying implicit prerequisite 'makefile.f,v'.
+     Not found 'makefile.f,v'.
+     Trying pattern rule '%:: RCS/%,v' with stem 'makefile.f'.
+     Trying implicit prerequisite 'RCS/makefile.f,v'.
+     Not found 'RCS/makefile.f,v'.
+     Trying pattern rule '%:: RCS/%' with stem 'makefile.f'.
+     Trying implicit prerequisite 'RCS/makefile.f'.
+     Not found 'RCS/makefile.f'.
+     Trying pattern rule '%:: s.%' with stem 'makefile.f'.
+     Trying implicit prerequisite 's.makefile.f'.
+     Not found 's.makefile.f'.
+     Trying pattern rule '%:: SCCS/s.%' with stem 'makefile.f'.
+     Trying implicit prerequisite 'SCCS/s.makefile.f'.
+     Not found 'SCCS/s.makefile.f'.
+     Trying harder.
+     Trying pattern rule '%.f: %.F' with stem 'makefile'.
+     Trying implicit prerequisite 'makefile.F'.
+     Looking for a rule with intermediate file 'makefile.F'.
+      Avoiding implicit rule recursion for rule '%: %.o'.
+      Avoiding implicit rule recursion for rule '%.o: %.f'.
+      Avoiding implicit rule recursion for rule '%.f: %.F'.
+      Trying pattern rule '%:: %,v' with stem 'makefile.F'.
+      Trying implicit prerequisite 'makefile.F,v'.
+      Not found 'makefile.F,v'.
+      Trying pattern rule '%:: RCS/%,v' with stem 'makefile.F'.
+      Trying implicit prerequisite 'RCS/makefile.F,v'.
+      Not found 'RCS/makefile.F,v'.
+      Trying pattern rule '%:: RCS/%' with stem 'makefile.F'.
+      Trying implicit prerequisite 'RCS/makefile.F'.
+      Not found 'RCS/makefile.F'.
+      Trying pattern rule '%:: s.%' with stem 'makefile.F'.
+      Trying implicit prerequisite 's.makefile.F'.
+      Not found 's.makefile.F'.
+      Trying pattern rule '%:: SCCS/s.%' with stem 'makefile.F'.
+      Trying implicit prerequisite 'SCCS/s.makefile.F'.
+      Not found 'SCCS/s.makefile.F'.
+      Trying harder.
+     No implicit rule found for 'makefile.F'.
+     Rejecting rule '%.f: %.F' due to impossible prerequisite 'makefile.F'.
+     Trying pattern rule '%.f: %.r' with stem 'makefile'.
+     Trying implicit prerequisite 'makefile.r'.
+     Looking for a rule with intermediate file 'makefile.r'.
+      Avoiding implicit rule recursion for rule '%: %.o'.
+      Avoiding implicit rule recursion for rule '%.o: %.f'.
+      Avoiding implicit rule recursion for rule '%.f: %.r'.
+      Trying pattern rule '%.r: %.l' with stem 'makefile'.
+      Rejecting rule '%.r: %.l' due to impossible implicit prerequisite 'makefile.l'.
+      Trying pattern rule '%:: %,v' with stem 'makefile.r'.
+      Trying implicit prerequisite 'makefile.r,v'.
+      Not found 'makefile.r,v'.
+      Trying pattern rule '%:: RCS/%,v' with stem 'makefile.r'.
+      Trying implicit prerequisite 'RCS/makefile.r,v'.
+      Not found 'RCS/makefile.r,v'.
+      Trying pattern rule '%:: RCS/%' with stem 'makefile.r'.
+      Trying implicit prerequisite 'RCS/makefile.r'.
+      Not found 'RCS/makefile.r'.
+      Trying pattern rule '%:: s.%' with stem 'makefile.r'.
+      Trying implicit prerequisite 's.makefile.r'.
+      Not found 's.makefile.r'.
+      Trying pattern rule '%:: SCCS/s.%' with stem 'makefile.r'.
+      Trying implicit prerequisite 'SCCS/s.makefile.r'.
+      Not found 'SCCS/s.makefile.r'.
+      Trying harder.
+     No implicit rule found for 'makefile.r'.
+     Rejecting rule '%.f: %.r' due to impossible prerequisite 'makefile.r'.
+    No implicit rule found for 'makefile.f'.
+    Rejecting rule '%.o: %.f' due to impossible prerequisite 'makefile.f'.
+    Trying pattern rule '%.o: %.F' with stem 'makefile'.
+    Rejecting rule '%.o: %.F' due to impossible implicit prerequisite 'makefile.F'.
+    Trying pattern rule '%.o: %.m' with stem 'makefile'.
+    Trying implicit prerequisite 'makefile.m'.
+    Looking for a rule with intermediate file 'makefile.m'.
+     Avoiding implicit rule recursion for rule '%: %.o'.
+     Avoiding implicit rule recursion for rule '%.o: %.m'.
+     Trying pattern rule '%.m: %.ym' with stem 'makefile'.
+     Trying implicit prerequisite 'makefile.ym'.
+     Not found 'makefile.ym'.
+     Trying pattern rule '%:: %,v' with stem 'makefile.m'.
+     Trying implicit prerequisite 'makefile.m,v'.
+     Not found 'makefile.m,v'.
+     Trying pattern rule '%:: RCS/%,v' with stem 'makefile.m'.
+     Trying implicit prerequisite 'RCS/makefile.m,v'.
+     Not found 'RCS/makefile.m,v'.
+     Trying pattern rule '%:: RCS/%' with stem 'makefile.m'.
+     Trying implicit prerequisite 'RCS/makefile.m'.
+     Not found 'RCS/makefile.m'.
+     Trying pattern rule '%:: s.%' with stem 'makefile.m'.
+     Trying implicit prerequisite 's.makefile.m'.
+     Not found 's.makefile.m'.
+     Trying pattern rule '%:: SCCS/s.%' with stem 'makefile.m'.
+     Trying implicit prerequisite 'SCCS/s.makefile.m'.
+     Not found 'SCCS/s.makefile.m'.
+     Trying harder.
+     Trying pattern rule '%.m: %.ym' with stem 'makefile'.
+     Trying implicit prerequisite 'makefile.ym'.
+     Looking for a rule with intermediate file 'makefile.ym'.
+      Avoiding implicit rule recursion for rule '%: %.o'.
+      Avoiding implicit rule recursion for rule '%.o: %.m'.
+      Avoiding implicit rule recursion for rule '%.m: %.ym'.
+      Trying pattern rule '%:: %,v' with stem 'makefile.ym'.
+      Trying implicit prerequisite 'makefile.ym,v'.
+      Not found 'makefile.ym,v'.
+      Trying pattern rule '%:: RCS/%,v' with stem 'makefile.ym'.
+      Trying implicit prerequisite 'RCS/makefile.ym,v'.
+      Not found 'RCS/makefile.ym,v'.
+      Trying pattern rule '%:: RCS/%' with stem 'makefile.ym'.
+      Trying implicit prerequisite 'RCS/makefile.ym'.
+      Not found 'RCS/makefile.ym'.
+      Trying pattern rule '%:: s.%' with stem 'makefile.ym'.
+      Trying implicit prerequisite 's.makefile.ym'.
+      Not found 's.makefile.ym'.
+      Trying pattern rule '%:: SCCS/s.%' with stem 'makefile.ym'.
+      Trying implicit prerequisite 'SCCS/s.makefile.ym'.
+      Not found 'SCCS/s.makefile.ym'.
+      Trying harder.
+     No implicit rule found for 'makefile.ym'.
+     Rejecting rule '%.m: %.ym' due to impossible prerequisite 'makefile.ym'.
+    No implicit rule found for 'makefile.m'.
+    Rejecting rule '%.o: %.m' due to impossible prerequisite 'makefile.m'.
+    Trying pattern rule '%.o: %.r' with stem 'makefile'.
+    Rejecting rule '%.o: %.r' due to impossible implicit prerequisite 'makefile.r'.
+    Trying pattern rule '%.o: %.s' with stem 'makefile'.
+    Trying implicit prerequisite 'makefile.s'.
+    Looking for a rule with intermediate file 'makefile.s'.
+     Avoiding implicit rule recursion for rule '%: %.o'.
+     Avoiding implicit rule recursion for rule '%.o: %.s'.
+     Trying pattern rule '%.s: %.S' with stem 'makefile'.
+     Trying implicit prerequisite 'makefile.S'.
+     Not found 'makefile.S'.
+     Trying pattern rule '%:: %,v' with stem 'makefile.s'.
+     Trying implicit prerequisite 'makefile.s,v'.
+     Not found 'makefile.s,v'.
+     Trying pattern rule '%:: RCS/%,v' with stem 'makefile.s'.
+     Trying implicit prerequisite 'RCS/makefile.s,v'.
+     Not found 'RCS/makefile.s,v'.
+     Trying pattern rule '%:: RCS/%' with stem 'makefile.s'.
+     Trying implicit prerequisite 'RCS/makefile.s'.
+     Not found 'RCS/makefile.s'.
+     Trying pattern rule '%:: s.%' with stem 'makefile.s'.
+     Trying implicit prerequisite 's.makefile.s'.
+     Not found 's.makefile.s'.
+     Trying pattern rule '%:: SCCS/s.%' with stem 'makefile.s'.
+     Trying implicit prerequisite 'SCCS/s.makefile.s'.
+     Not found 'SCCS/s.makefile.s'.
+     Trying harder.
+     Trying pattern rule '%.s: %.S' with stem 'makefile'.
+     Trying implicit prerequisite 'makefile.S'.
+     Looking for a rule with intermediate file 'makefile.S'.
+      Avoiding implicit rule recursion for rule '%: %.o'.
+      Avoiding implicit rule recursion for rule '%.o: %.s'.
+      Avoiding implicit rule recursion for rule '%.s: %.S'.
+      Trying pattern rule '%:: %,v' with stem 'makefile.S'.
+      Trying implicit prerequisite 'makefile.S,v'.
+      Not found 'makefile.S,v'.
+      Trying pattern rule '%:: RCS/%,v' with stem 'makefile.S'.
+      Trying implicit prerequisite 'RCS/makefile.S,v'.
+      Not found 'RCS/makefile.S,v'.
+      Trying pattern rule '%:: RCS/%' with stem 'makefile.S'.
+      Trying implicit prerequisite 'RCS/makefile.S'.
+      Not found 'RCS/makefile.S'.
+      Trying pattern rule '%:: s.%' with stem 'makefile.S'.
+      Trying implicit prerequisite 's.makefile.S'.
+      Not found 's.makefile.S'.
+      Trying pattern rule '%:: SCCS/s.%' with stem 'makefile.S'.
+      Trying implicit prerequisite 'SCCS/s.makefile.S'.
+      Not found 'SCCS/s.makefile.S'.
+      Trying harder.
+     No implicit rule found for 'makefile.S'.
+     Rejecting rule '%.s: %.S' due to impossible prerequisite 'makefile.S'.
+    No implicit rule found for 'makefile.s'.
+    Rejecting rule '%.o: %.s' due to impossible prerequisite 'makefile.s'.
+    Trying pattern rule '%.o: %.S' with stem 'makefile'.
+    Rejecting rule '%.o: %.S' due to impossible implicit prerequisite 'makefile.S'.
+    Trying pattern rule '%.o: %.mod' with stem 'makefile'.
+    Trying implicit prerequisite 'makefile.mod'.
+    Looking for a rule with intermediate file 'makefile.mod'.
+     Avoiding implicit rule recursion for rule '%: %.o'.
+     Avoiding implicit rule recursion for rule '%.o: %.mod'.
+     Trying pattern rule '%:: %,v' with stem 'makefile.mod'.
+     Trying implicit prerequisite 'makefile.mod,v'.
+     Not found 'makefile.mod,v'.
+     Trying pattern rule '%:: RCS/%,v' with stem 'makefile.mod'.
+     Trying implicit prerequisite 'RCS/makefile.mod,v'.
+     Not found 'RCS/makefile.mod,v'.
+     Trying pattern rule '%:: RCS/%' with stem 'makefile.mod'.
+     Trying implicit prerequisite 'RCS/makefile.mod'.
+     Not found 'RCS/makefile.mod'.
+     Trying pattern rule '%:: s.%' with stem 'makefile.mod'.
+     Trying implicit prerequisite 's.makefile.mod'.
+     Not found 's.makefile.mod'.
+     Trying pattern rule '%:: SCCS/s.%' with stem 'makefile.mod'.
+     Trying implicit prerequisite 'SCCS/s.makefile.mod'.
+     Not found 'SCCS/s.makefile.mod'.
+     Trying harder.
+    No implicit rule found for 'makefile.mod'.
+    Rejecting rule '%.o: %.mod' due to impossible prerequisite 'makefile.mod'.
+   No implicit rule found for 'makefile.o'.
+   Rejecting rule '%: %.o' due to impossible prerequisite 'makefile.o'.
+   Trying pattern rule '%: %.c' with stem 'makefile'.
+   Rejecting rule '%: %.c' due to impossible implicit prerequisite 'makefile.c'.
+   Trying pattern rule '%: %.cc' with stem 'makefile'.
+   Rejecting rule '%: %.cc' due to impossible implicit prerequisite 'makefile.cc'.
+   Trying pattern rule '%: %.C' with stem 'makefile'.
+   Rejecting rule '%: %.C' due to impossible implicit prerequisite 'makefile.C'.
+   Trying pattern rule '%: %.cpp' with stem 'makefile'.
+   Rejecting rule '%: %.cpp' due to impossible implicit prerequisite 'makefile.cpp'.
+   Trying pattern rule '%: %.p' with stem 'makefile'.
+   Rejecting rule '%: %.p' due to impossible implicit prerequisite 'makefile.p'.
+   Trying pattern rule '%: %.f' with stem 'makefile'.
+   Rejecting rule '%: %.f' due to impossible implicit prerequisite 'makefile.f'.
+   Trying pattern rule '%: %.F' with stem 'makefile'.
+   Rejecting rule '%: %.F' due to impossible implicit prerequisite 'makefile.F'.
+   Trying pattern rule '%: %.m' with stem 'makefile'.
+   Rejecting rule '%: %.m' due to impossible implicit prerequisite 'makefile.m'.
+   Trying pattern rule '%: %.r' with stem 'makefile'.
+   Rejecting rule '%: %.r' due to impossible implicit prerequisite 'makefile.r'.
+   Trying pattern rule '%: %.s' with stem 'makefile'.
+   Rejecting rule '%: %.s' due to impossible implicit prerequisite 'makefile.s'.
+   Trying pattern rule '%: %.S' with stem 'makefile'.
+   Rejecting rule '%: %.S' due to impossible implicit prerequisite 'makefile.S'.
+   Trying pattern rule '%: %.mod' with stem 'makefile'.
+   Rejecting rule '%: %.mod' due to impossible implicit prerequisite 'makefile.mod'.
+   Trying pattern rule '%: %.sh' with stem 'makefile'.
+   Trying implicit prerequisite 'makefile.sh'.
+   Looking for a rule with intermediate file 'makefile.sh'.
+    Avoiding implicit rule recursion for rule '%: %.sh'.
+    Trying pattern rule '%:: %,v' with stem 'makefile.sh'.
+    Trying implicit prerequisite 'makefile.sh,v'.
+    Not found 'makefile.sh,v'.
+    Trying pattern rule '%:: RCS/%,v' with stem 'makefile.sh'.
+    Trying implicit prerequisite 'RCS/makefile.sh,v'.
+    Not found 'RCS/makefile.sh,v'.
+    Trying pattern rule '%:: RCS/%' with stem 'makefile.sh'.
+    Trying implicit prerequisite 'RCS/makefile.sh'.
+    Not found 'RCS/makefile.sh'.
+    Trying pattern rule '%:: s.%' with stem 'makefile.sh'.
+    Trying implicit prerequisite 's.makefile.sh'.
+    Not found 's.makefile.sh'.
+    Trying pattern rule '%:: SCCS/s.%' with stem 'makefile.sh'.
+    Trying implicit prerequisite 'SCCS/s.makefile.sh'.
+    Not found 'SCCS/s.makefile.sh'.
+    Trying harder.
+   No implicit rule found for 'makefile.sh'.
+   Rejecting rule '%: %.sh' due to impossible prerequisite 'makefile.sh'.
+  No implicit rule found for 'makefile'.
+ Finished prerequisites of target file 'makefile'.
+ No need to remake target 'makefile'.
+ Considering target file 'build/main.d'.
+  Looking for an implicit rule for 'build/main.d'.
+   Trying pattern rule '%: %.o' with stem 'main.d'.
+   Trying implicit prerequisite 'build/main.d.o'.
+   Not found 'build/main.d.o'.
+   Trying pattern rule '%: %.c' with stem 'main.d'.
+   Trying implicit prerequisite 'build/main.d.c'.
+   Not found 'build/main.d.c'.
+   Trying pattern rule '%: %.cc' with stem 'main.d'.
+   Trying implicit prerequisite 'build/main.d.cc'.
+   Not found 'build/main.d.cc'.
+   Trying pattern rule '%: %.C' with stem 'main.d'.
+   Trying implicit prerequisite 'build/main.d.C'.
+   Not found 'build/main.d.C'.
+   Trying pattern rule '%: %.cpp' with stem 'main.d'.
+   Trying implicit prerequisite 'build/main.d.cpp'.
+   Not found 'build/main.d.cpp'.
+   Trying pattern rule '%: %.p' with stem 'main.d'.
+   Trying implicit prerequisite 'build/main.d.p'.
+   Not found 'build/main.d.p'.
+   Trying pattern rule '%: %.f' with stem 'main.d'.
+   Trying implicit prerequisite 'build/main.d.f'.
+   Not found 'build/main.d.f'.
+   Trying pattern rule '%: %.F' with stem 'main.d'.
+   Trying implicit prerequisite 'build/main.d.F'.
+   Not found 'build/main.d.F'.
+   Trying pattern rule '%: %.m' with stem 'main.d'.
+   Trying implicit prerequisite 'build/main.d.m'.
+   Not found 'build/main.d.m'.
+   Trying pattern rule '%: %.r' with stem 'main.d'.
+   Trying implicit prerequisite 'build/main.d.r'.
+   Not found 'build/main.d.r'.
+   Trying pattern rule '%: %.s' with stem 'main.d'.
+   Trying implicit prerequisite 'build/main.d.s'.
+   Not found 'build/main.d.s'.
+   Trying pattern rule '%: %.S' with stem 'main.d'.
+   Trying implicit prerequisite 'build/main.d.S'.
+   Not found 'build/main.d.S'.
+   Trying pattern rule '%: %.mod' with stem 'main.d'.
+   Trying implicit prerequisite 'build/main.d.mod'.
+   Not found 'build/main.d.mod'.
+   Trying pattern rule '%: %.sh' with stem 'main.d'.
+   Trying implicit prerequisite 'build/main.d.sh'.
+   Not found 'build/main.d.sh'.
+   Trying pattern rule '%:: %,v' with stem 'main.d'.
+   Trying implicit prerequisite 'build/main.d,v'.
+   Not found 'build/main.d,v'.
+   Trying pattern rule '%:: RCS/%,v' with stem 'main.d'.
+   Trying implicit prerequisite 'build/RCS/main.d,v'.
+   Not found 'build/RCS/main.d,v'.
+   Trying pattern rule '%:: RCS/%' with stem 'main.d'.
+   Trying implicit prerequisite 'build/RCS/main.d'.
+   Not found 'build/RCS/main.d'.
+   Trying pattern rule '%:: s.%' with stem 'main.d'.
+   Trying implicit prerequisite 'build/s.main.d'.
+   Not found 'build/s.main.d'.
+   Trying pattern rule '%:: SCCS/s.%' with stem 'main.d'.
+   Trying implicit prerequisite 'build/SCCS/s.main.d'.
+   Not found 'build/SCCS/s.main.d'.
+   Trying harder.
+   Trying pattern rule '%: %.o' with stem 'main.d'.
+   Trying implicit prerequisite 'build/main.d.o'.
+   Looking for a rule with intermediate file 'build/main.d.o'.
+    Avoiding implicit rule recursion for rule '%: %.o'.
+    Trying pattern rule 'build/%.o: src/%.c' with stem 'main.d'.
+    Trying implicit prerequisite 'src/main.d.c'.
+    Not found 'src/main.d.c'.
+    Trying pattern rule '%.o: %.c' with stem 'main.d'.
+    Trying implicit prerequisite 'build/main.d.c'.
+    Not found 'build/main.d.c'.
+    Trying pattern rule '%.o: %.cc' with stem 'main.d'.
+    Trying implicit prerequisite 'build/main.d.cc'.
+    Not found 'build/main.d.cc'.
+    Trying pattern rule '%.o: %.C' with stem 'main.d'.
+    Trying implicit prerequisite 'build/main.d.C'.
+    Not found 'build/main.d.C'.
+    Trying pattern rule '%.o: %.cpp' with stem 'main.d'.
+    Trying implicit prerequisite 'build/main.d.cpp'.
+    Not found 'build/main.d.cpp'.
+    Trying pattern rule '%.o: %.p' with stem 'main.d'.
+    Trying implicit prerequisite 'build/main.d.p'.
+    Not found 'build/main.d.p'.
+    Trying pattern rule '%.o: %.f' with stem 'main.d'.
+    Trying implicit prerequisite 'build/main.d.f'.
+    Not found 'build/main.d.f'.
+    Trying pattern rule '%.o: %.F' with stem 'main.d'.
+    Trying implicit prerequisite 'build/main.d.F'.
+    Not found 'build/main.d.F'.
+    Trying pattern rule '%.o: %.m' with stem 'main.d'.
+    Trying implicit prerequisite 'build/main.d.m'.
+    Not found 'build/main.d.m'.
+    Trying pattern rule '%.o: %.r' with stem 'main.d'.
+    Trying implicit prerequisite 'build/main.d.r'.
+    Not found 'build/main.d.r'.
+    Trying pattern rule '%.o: %.s' with stem 'main.d'.
+    Trying implicit prerequisite 'build/main.d.s'.
+    Not found 'build/main.d.s'.
+    Trying pattern rule '%.o: %.S' with stem 'main.d'.
+    Trying implicit prerequisite 'build/main.d.S'.
+    Not found 'build/main.d.S'.
+    Trying pattern rule '%.o: %.mod' with stem 'main.d'.
+    Trying implicit prerequisite 'build/main.d.mod'.
+    Not found 'build/main.d.mod'.
+    Trying pattern rule '%:: %,v' with stem 'main.d.o'.
+    Trying implicit prerequisite 'build/main.d.o,v'.
+    Not found 'build/main.d.o,v'.
+    Trying pattern rule '%:: RCS/%,v' with stem 'main.d.o'.
+    Trying implicit prerequisite 'build/RCS/main.d.o,v'.
+    Not found 'build/RCS/main.d.o,v'.
+    Trying pattern rule '%:: RCS/%' with stem 'main.d.o'.
+    Trying implicit prerequisite 'build/RCS/main.d.o'.
+    Not found 'build/RCS/main.d.o'.
+    Trying pattern rule '%:: s.%' with stem 'main.d.o'.
+    Trying implicit prerequisite 'build/s.main.d.o'.
+    Not found 'build/s.main.d.o'.
+    Trying pattern rule '%:: SCCS/s.%' with stem 'main.d.o'.
+    Trying implicit prerequisite 'build/SCCS/s.main.d.o'.
+    Not found 'build/SCCS/s.main.d.o'.
+    Trying harder.
+    Trying pattern rule 'build/%.o: src/%.c' with stem 'main.d'.
+    Trying implicit prerequisite 'src/main.d.c'.
+    Looking for a rule with intermediate file 'src/main.d.c'.
+     Avoiding implicit rule recursion for rule 'build/%.o: src/%.c'.
+     Avoiding implicit rule recursion for rule '%: %.o'.
+     Trying pattern rule '%.c: %.y' with stem 'main.d'.
+     Trying implicit prerequisite 'src/main.d.y'.
+     Not found 'src/main.d.y'.
+     Trying pattern rule '%.c: %.l' with stem 'main.d'.
+     Trying implicit prerequisite 'src/main.d.l'.
+     Not found 'src/main.d.l'.
+     Trying pattern rule '%.c: %.w' with stem 'main.d'.
+     Trying implicit prerequisite 'src/main.d.w'.
+     Not found 'src/main.d.w'.
+     Trying pattern rule '%.c: %.w %.ch' with stem 'main.d'.
+     Trying implicit prerequisite 'src/main.d.w'.
+     Not found 'src/main.d.w'.
+     Trying pattern rule '%:: %,v' with stem 'main.d.c'.
+     Trying implicit prerequisite 'src/main.d.c,v'.
+     Not found 'src/main.d.c,v'.
+     Trying pattern rule '%:: RCS/%,v' with stem 'main.d.c'.
+     Trying implicit prerequisite 'src/RCS/main.d.c,v'.
+     Not found 'src/RCS/main.d.c,v'.
+     Trying pattern rule '%:: RCS/%' with stem 'main.d.c'.
+     Trying implicit prerequisite 'src/RCS/main.d.c'.
+     Not found 'src/RCS/main.d.c'.
+     Trying pattern rule '%:: s.%' with stem 'main.d.c'.
+     Trying implicit prerequisite 'src/s.main.d.c'.
+     Not found 'src/s.main.d.c'.
+     Trying pattern rule '%:: SCCS/s.%' with stem 'main.d.c'.
+     Trying implicit prerequisite 'src/SCCS/s.main.d.c'.
+     Not found 'src/SCCS/s.main.d.c'.
+     Trying harder.
+     Trying pattern rule '%.c: %.y' with stem 'main.d'.
+     Trying implicit prerequisite 'src/main.d.y'.
+     Looking for a rule with intermediate file 'src/main.d.y'.
+      Avoiding implicit rule recursion for rule 'build/%.o: src/%.c'.
+      Avoiding implicit rule recursion for rule '%: %.o'.
+      Avoiding implicit rule recursion for rule '%.c: %.y'.
+      Trying pattern rule '%:: %,v' with stem 'main.d.y'.
+      Trying implicit prerequisite 'src/main.d.y,v'.
+      Not found 'src/main.d.y,v'.
+      Trying pattern rule '%:: RCS/%,v' with stem 'main.d.y'.
+      Trying implicit prerequisite 'src/RCS/main.d.y,v'.
+      Not found 'src/RCS/main.d.y,v'.
+      Trying pattern rule '%:: RCS/%' with stem 'main.d.y'.
+      Trying implicit prerequisite 'src/RCS/main.d.y'.
+      Not found 'src/RCS/main.d.y'.
+      Trying pattern rule '%:: s.%' with stem 'main.d.y'.
+      Trying implicit prerequisite 'src/s.main.d.y'.
+      Not found 'src/s.main.d.y'.
+      Trying pattern rule '%:: SCCS/s.%' with stem 'main.d.y'.
+      Trying implicit prerequisite 'src/SCCS/s.main.d.y'.
+      Not found 'src/SCCS/s.main.d.y'.
+      Trying harder.
+     No implicit rule found for 'src/main.d.y'.
+     Rejecting rule '%.c: %.y' due to impossible prerequisite 'src/main.d.y'.
+     Trying pattern rule '%.c: %.l' with stem 'main.d'.
+     Trying implicit prerequisite 'src/main.d.l'.
+     Looking for a rule with intermediate file 'src/main.d.l'.
+      Avoiding implicit rule recursion for rule 'build/%.o: src/%.c'.
+      Avoiding implicit rule recursion for rule '%: %.o'.
+      Avoiding implicit rule recursion for rule '%.c: %.l'.
+      Trying pattern rule '%:: %,v' with stem 'main.d.l'.
+      Trying implicit prerequisite 'src/main.d.l,v'.
+      Not found 'src/main.d.l,v'.
+      Trying pattern rule '%:: RCS/%,v' with stem 'main.d.l'.
+      Trying implicit prerequisite 'src/RCS/main.d.l,v'.
+      Not found 'src/RCS/main.d.l,v'.
+      Trying pattern rule '%:: RCS/%' with stem 'main.d.l'.
+      Trying implicit prerequisite 'src/RCS/main.d.l'.
+      Not found 'src/RCS/main.d.l'.
+      Trying pattern rule '%:: s.%' with stem 'main.d.l'.
+      Trying implicit prerequisite 'src/s.main.d.l'.
+      Not found 'src/s.main.d.l'.
+      Trying pattern rule '%:: SCCS/s.%' with stem 'main.d.l'.
+      Trying implicit prerequisite 'src/SCCS/s.main.d.l'.
+      Not found 'src/SCCS/s.main.d.l'.
+      Trying harder.
+     No implicit rule found for 'src/main.d.l'.
+     Rejecting rule '%.c: %.l' due to impossible prerequisite 'src/main.d.l'.
+     Trying pattern rule '%.c: %.w' with stem 'main.d'.
+     Trying implicit prerequisite 'src/main.d.w'.
+     Looking for a rule with intermediate file 'src/main.d.w'.
+      Avoiding implicit rule recursion for rule 'build/%.o: src/%.c'.
+      Avoiding implicit rule recursion for rule '%: %.o'.
+      Avoiding implicit rule recursion for rule '%.c: %.w'.
+      Trying pattern rule '%:: %,v' with stem 'main.d.w'.
+      Trying implicit prerequisite 'src/main.d.w,v'.
+      Not found 'src/main.d.w,v'.
+      Trying pattern rule '%:: RCS/%,v' with stem 'main.d.w'.
+      Trying implicit prerequisite 'src/RCS/main.d.w,v'.
+      Not found 'src/RCS/main.d.w,v'.
+      Trying pattern rule '%:: RCS/%' with stem 'main.d.w'.
+      Trying implicit prerequisite 'src/RCS/main.d.w'.
+      Not found 'src/RCS/main.d.w'.
+      Trying pattern rule '%:: s.%' with stem 'main.d.w'.
+      Trying implicit prerequisite 'src/s.main.d.w'.
+      Not found 'src/s.main.d.w'.
+      Trying pattern rule '%:: SCCS/s.%' with stem 'main.d.w'.
+      Trying implicit prerequisite 'src/SCCS/s.main.d.w'.
+      Not found 'src/SCCS/s.main.d.w'.
+      Trying harder.
+     No implicit rule found for 'src/main.d.w'.
+     Rejecting rule '%.c: %.w' due to impossible prerequisite 'src/main.d.w'.
+     Trying pattern rule '%.c: %.w %.ch' with stem 'main.d'.
+     Rejecting rule '%.c: %.w %.ch' due to impossible implicit prerequisite 'src/main.d.w'.
+    No implicit rule found for 'src/main.d.c'.
+    Rejecting rule 'build/%.o: src/%.c' due to impossible prerequisite 'src/main.d.c'.
+    Trying pattern rule '%.o: %.c' with stem 'main.d'.
+    Trying implicit prerequisite 'build/main.d.c'.
+    Looking for a rule with intermediate file 'build/main.d.c'.
+     Avoiding implicit rule recursion for rule '%: %.o'.
+     Avoiding implicit rule recursion for rule '%.o: %.c'.
+     Trying pattern rule '%.c: %.y' with stem 'main.d'.
+     Trying implicit prerequisite 'build/main.d.y'.
+     Not found 'build/main.d.y'.
+     Trying pattern rule '%.c: %.l' with stem 'main.d'.
+     Trying implicit prerequisite 'build/main.d.l'.
+     Not found 'build/main.d.l'.
+     Trying pattern rule '%.c: %.w' with stem 'main.d'.
+     Trying implicit prerequisite 'build/main.d.w'.
+     Not found 'build/main.d.w'.
+     Trying pattern rule '%.c: %.w %.ch' with stem 'main.d'.
+     Trying implicit prerequisite 'build/main.d.w'.
+     Not found 'build/main.d.w'.
+     Trying pattern rule '%:: %,v' with stem 'main.d.c'.
+     Trying implicit prerequisite 'build/main.d.c,v'.
+     Not found 'build/main.d.c,v'.
+     Trying pattern rule '%:: RCS/%,v' with stem 'main.d.c'.
+     Trying implicit prerequisite 'build/RCS/main.d.c,v'.
+     Not found 'build/RCS/main.d.c,v'.
+     Trying pattern rule '%:: RCS/%' with stem 'main.d.c'.
+     Trying implicit prerequisite 'build/RCS/main.d.c'.
+     Not found 'build/RCS/main.d.c'.
+     Trying pattern rule '%:: s.%' with stem 'main.d.c'.
+     Trying implicit prerequisite 'build/s.main.d.c'.
+     Not found 'build/s.main.d.c'.
+     Trying pattern rule '%:: SCCS/s.%' with stem 'main.d.c'.
+     Trying implicit prerequisite 'build/SCCS/s.main.d.c'.
+     Not found 'build/SCCS/s.main.d.c'.
+     Trying harder.
+     Trying pattern rule '%.c: %.y' with stem 'main.d'.
+     Trying implicit prerequisite 'build/main.d.y'.
+     Looking for a rule with intermediate file 'build/main.d.y'.
+      Avoiding implicit rule recursion for rule '%: %.o'.
+      Avoiding implicit rule recursion for rule '%.o: %.c'.
+      Avoiding implicit rule recursion for rule '%.c: %.y'.
+      Trying pattern rule '%:: %,v' with stem 'main.d.y'.
+      Trying implicit prerequisite 'build/main.d.y,v'.
+      Not found 'build/main.d.y,v'.
+      Trying pattern rule '%:: RCS/%,v' with stem 'main.d.y'.
+      Trying implicit prerequisite 'build/RCS/main.d.y,v'.
+      Not found 'build/RCS/main.d.y,v'.
+      Trying pattern rule '%:: RCS/%' with stem 'main.d.y'.
+      Trying implicit prerequisite 'build/RCS/main.d.y'.
+      Not found 'build/RCS/main.d.y'.
+      Trying pattern rule '%:: s.%' with stem 'main.d.y'.
+      Trying implicit prerequisite 'build/s.main.d.y'.
+      Not found 'build/s.main.d.y'.
+      Trying pattern rule '%:: SCCS/s.%' with stem 'main.d.y'.
+      Trying implicit prerequisite 'build/SCCS/s.main.d.y'.
+      Not found 'build/SCCS/s.main.d.y'.
+      Trying harder.
+     No implicit rule found for 'build/main.d.y'.
+     Rejecting rule '%.c: %.y' due to impossible prerequisite 'build/main.d.y'.
+     Trying pattern rule '%.c: %.l' with stem 'main.d'.
+     Trying implicit prerequisite 'build/main.d.l'.
+     Looking for a rule with intermediate file 'build/main.d.l'.
+      Avoiding implicit rule recursion for rule '%: %.o'.
+      Avoiding implicit rule recursion for rule '%.o: %.c'.
+      Avoiding implicit rule recursion for rule '%.c: %.l'.
+      Trying pattern rule '%:: %,v' with stem 'main.d.l'.
+      Trying implicit prerequisite 'build/main.d.l,v'.
+      Not found 'build/main.d.l,v'.
+      Trying pattern rule '%:: RCS/%,v' with stem 'main.d.l'.
+      Trying implicit prerequisite 'build/RCS/main.d.l,v'.
+      Not found 'build/RCS/main.d.l,v'.
+      Trying pattern rule '%:: RCS/%' with stem 'main.d.l'.
+      Trying implicit prerequisite 'build/RCS/main.d.l'.
+      Not found 'build/RCS/main.d.l'.
+      Trying pattern rule '%:: s.%' with stem 'main.d.l'.
+      Trying implicit prerequisite 'build/s.main.d.l'.
+      Not found 'build/s.main.d.l'.
+      Trying pattern rule '%:: SCCS/s.%' with stem 'main.d.l'.
+      Trying implicit prerequisite 'build/SCCS/s.main.d.l'.
+      Not found 'build/SCCS/s.main.d.l'.
+      Trying harder.
+     No implicit rule found for 'build/main.d.l'.
+     Rejecting rule '%.c: %.l' due to impossible prerequisite 'build/main.d.l'.
+     Trying pattern rule '%.c: %.w' with stem 'main.d'.
+     Trying implicit prerequisite 'build/main.d.w'.
+     Looking for a rule with intermediate file 'build/main.d.w'.
+      Avoiding implicit rule recursion for rule '%: %.o'.
+      Avoiding implicit rule recursion for rule '%.o: %.c'.
+      Avoiding implicit rule recursion for rule '%.c: %.w'.
+      Trying pattern rule '%:: %,v' with stem 'main.d.w'.
+      Trying implicit prerequisite 'build/main.d.w,v'.
+      Not found 'build/main.d.w,v'.
+      Trying pattern rule '%:: RCS/%,v' with stem 'main.d.w'.
+      Trying implicit prerequisite 'build/RCS/main.d.w,v'.
+      Not found 'build/RCS/main.d.w,v'.
+      Trying pattern rule '%:: RCS/%' with stem 'main.d.w'.
+      Trying implicit prerequisite 'build/RCS/main.d.w'.
+      Not found 'build/RCS/main.d.w'.
+      Trying pattern rule '%:: s.%' with stem 'main.d.w'.
+      Trying implicit prerequisite 'build/s.main.d.w'.
+      Not found 'build/s.main.d.w'.
+      Trying pattern rule '%:: SCCS/s.%' with stem 'main.d.w'.
+      Trying implicit prerequisite 'build/SCCS/s.main.d.w'.
+      Not found 'build/SCCS/s.main.d.w'.
+      Trying harder.
+     No implicit rule found for 'build/main.d.w'.
+     Rejecting rule '%.c: %.w' due to impossible prerequisite 'build/main.d.w'.
+     Trying pattern rule '%.c: %.w %.ch' with stem 'main.d'.
+     Rejecting rule '%.c: %.w %.ch' due to impossible implicit prerequisite 'build/main.d.w'.
+    No implicit rule found for 'build/main.d.c'.
+    Rejecting rule '%.o: %.c' due to impossible prerequisite 'build/main.d.c'.
+    Trying pattern rule '%.o: %.cc' with stem 'main.d'.
+    Trying implicit prerequisite 'build/main.d.cc'.
+    Looking for a rule with intermediate file 'build/main.d.cc'.
+     Avoiding implicit rule recursion for rule '%: %.o'.
+     Avoiding implicit rule recursion for rule '%.o: %.cc'.
+     Trying pattern rule '%:: %,v' with stem 'main.d.cc'.
+     Trying implicit prerequisite 'build/main.d.cc,v'.
+     Not found 'build/main.d.cc,v'.
+     Trying pattern rule '%:: RCS/%,v' with stem 'main.d.cc'.
+     Trying implicit prerequisite 'build/RCS/main.d.cc,v'.
+     Not found 'build/RCS/main.d.cc,v'.
+     Trying pattern rule '%:: RCS/%' with stem 'main.d.cc'.
+     Trying implicit prerequisite 'build/RCS/main.d.cc'.
+     Not found 'build/RCS/main.d.cc'.
+     Trying pattern rule '%:: s.%' with stem 'main.d.cc'.
+     Trying implicit prerequisite 'build/s.main.d.cc'.
+     Not found 'build/s.main.d.cc'.
+     Trying pattern rule '%:: SCCS/s.%' with stem 'main.d.cc'.
+     Trying implicit prerequisite 'build/SCCS/s.main.d.cc'.
+     Not found 'build/SCCS/s.main.d.cc'.
+     Trying harder.
+    No implicit rule found for 'build/main.d.cc'.
+    Rejecting rule '%.o: %.cc' due to impossible prerequisite 'build/main.d.cc'.
+    Trying pattern rule '%.o: %.C' with stem 'main.d'.
+    Trying implicit prerequisite 'build/main.d.C'.
+    Looking for a rule with intermediate file 'build/main.d.C'.
+     Avoiding implicit rule recursion for rule '%: %.o'.
+     Avoiding implicit rule recursion for rule '%.o: %.C'.
+     Trying pattern rule '%:: %,v' with stem 'main.d.C'.
+     Trying implicit prerequisite 'build/main.d.C,v'.
+     Not found 'build/main.d.C,v'.
+     Trying pattern rule '%:: RCS/%,v' with stem 'main.d.C'.
+     Trying implicit prerequisite 'build/RCS/main.d.C,v'.
+     Not found 'build/RCS/main.d.C,v'.
+     Trying pattern rule '%:: RCS/%' with stem 'main.d.C'.
+     Trying implicit prerequisite 'build/RCS/main.d.C'.
+     Not found 'build/RCS/main.d.C'.
+     Trying pattern rule '%:: s.%' with stem 'main.d.C'.
+     Trying implicit prerequisite 'build/s.main.d.C'.
+     Not found 'build/s.main.d.C'.
+     Trying pattern rule '%:: SCCS/s.%' with stem 'main.d.C'.
+     Trying implicit prerequisite 'build/SCCS/s.main.d.C'.
+     Not found 'build/SCCS/s.main.d.C'.
+     Trying harder.
+    No implicit rule found for 'build/main.d.C'.
+    Rejecting rule '%.o: %.C' due to impossible prerequisite 'build/main.d.C'.
+    Trying pattern rule '%.o: %.cpp' with stem 'main.d'.
+    Trying implicit prerequisite 'build/main.d.cpp'.
+    Looking for a rule with intermediate file 'build/main.d.cpp'.
+     Avoiding implicit rule recursion for rule '%: %.o'.
+     Avoiding implicit rule recursion for rule '%.o: %.cpp'.
+     Trying pattern rule '%:: %,v' with stem 'main.d.cpp'.
+     Trying implicit prerequisite 'build/main.d.cpp,v'.
+     Not found 'build/main.d.cpp,v'.
+     Trying pattern rule '%:: RCS/%,v' with stem 'main.d.cpp'.
+     Trying implicit prerequisite 'build/RCS/main.d.cpp,v'.
+     Not found 'build/RCS/main.d.cpp,v'.
+     Trying pattern rule '%:: RCS/%' with stem 'main.d.cpp'.
+     Trying implicit prerequisite 'build/RCS/main.d.cpp'.
+     Not found 'build/RCS/main.d.cpp'.
+     Trying pattern rule '%:: s.%' with stem 'main.d.cpp'.
+     Trying implicit prerequisite 'build/s.main.d.cpp'.
+     Not found 'build/s.main.d.cpp'.
+     Trying pattern rule '%:: SCCS/s.%' with stem 'main.d.cpp'.
+     Trying implicit prerequisite 'build/SCCS/s.main.d.cpp'.
+     Not found 'build/SCCS/s.main.d.cpp'.
+     Trying harder.
+    No implicit rule found for 'build/main.d.cpp'.
+    Rejecting rule '%.o: %.cpp' due to impossible prerequisite 'build/main.d.cpp'.
+    Trying pattern rule '%.o: %.p' with stem 'main.d'.
+    Trying implicit prerequisite 'build/main.d.p'.
+    Looking for a rule with intermediate file 'build/main.d.p'.
+     Avoiding implicit rule recursion for rule '%: %.o'.
+     Avoiding implicit rule recursion for rule '%.o: %.p'.
+     Trying pattern rule '%.p: %.web' with stem 'main.d'.
+     Trying implicit prerequisite 'build/main.d.web'.
+     Not found 'build/main.d.web'.
+     Trying pattern rule '%:: %,v' with stem 'main.d.p'.
+     Trying implicit prerequisite 'build/main.d.p,v'.
+     Not found 'build/main.d.p,v'.
+     Trying pattern rule '%:: RCS/%,v' with stem 'main.d.p'.
+     Trying implicit prerequisite 'build/RCS/main.d.p,v'.
+     Not found 'build/RCS/main.d.p,v'.
+     Trying pattern rule '%:: RCS/%' with stem 'main.d.p'.
+     Trying implicit prerequisite 'build/RCS/main.d.p'.
+     Not found 'build/RCS/main.d.p'.
+     Trying pattern rule '%:: s.%' with stem 'main.d.p'.
+     Trying implicit prerequisite 'build/s.main.d.p'.
+     Not found 'build/s.main.d.p'.
+     Trying pattern rule '%:: SCCS/s.%' with stem 'main.d.p'.
+     Trying implicit prerequisite 'build/SCCS/s.main.d.p'.
+     Not found 'build/SCCS/s.main.d.p'.
+     Trying harder.
+     Trying pattern rule '%.p: %.web' with stem 'main.d'.
+     Trying implicit prerequisite 'build/main.d.web'.
+     Looking for a rule with intermediate file 'build/main.d.web'.
+      Avoiding implicit rule recursion for rule '%: %.o'.
+      Avoiding implicit rule recursion for rule '%.o: %.p'.
+      Avoiding implicit rule recursion for rule '%.p: %.web'.
+      Trying pattern rule '%:: %,v' with stem 'main.d.web'.
+      Trying implicit prerequisite 'build/main.d.web,v'.
+      Not found 'build/main.d.web,v'.
+      Trying pattern rule '%:: RCS/%,v' with stem 'main.d.web'.
+      Trying implicit prerequisite 'build/RCS/main.d.web,v'.
+      Not found 'build/RCS/main.d.web,v'.
+      Trying pattern rule '%:: RCS/%' with stem 'main.d.web'.
+      Trying implicit prerequisite 'build/RCS/main.d.web'.
+      Not found 'build/RCS/main.d.web'.
+      Trying pattern rule '%:: s.%' with stem 'main.d.web'.
+      Trying implicit prerequisite 'build/s.main.d.web'.
+      Not found 'build/s.main.d.web'.
+      Trying pattern rule '%:: SCCS/s.%' with stem 'main.d.web'.
+      Trying implicit prerequisite 'build/SCCS/s.main.d.web'.
+      Not found 'build/SCCS/s.main.d.web'.
+      Trying harder.
+     No implicit rule found for 'build/main.d.web'.
+     Rejecting rule '%.p: %.web' due to impossible prerequisite 'build/main.d.web'.
+    No implicit rule found for 'build/main.d.p'.
+    Rejecting rule '%.o: %.p' due to impossible prerequisite 'build/main.d.p'.
+    Trying pattern rule '%.o: %.f' with stem 'main.d'.
+    Trying implicit prerequisite 'build/main.d.f'.
+    Looking for a rule with intermediate file 'build/main.d.f'.
+     Avoiding implicit rule recursion for rule '%: %.o'.
+     Avoiding implicit rule recursion for rule '%.o: %.f'.
+     Trying pattern rule '%.f: %.F' with stem 'main.d'.
+     Trying implicit prerequisite 'build/main.d.F'.
+     Not found 'build/main.d.F'.
+     Trying pattern rule '%.f: %.r' with stem 'main.d'.
+     Trying implicit prerequisite 'build/main.d.r'.
+     Not found 'build/main.d.r'.
+     Trying pattern rule '%:: %,v' with stem 'main.d.f'.
+     Trying implicit prerequisite 'build/main.d.f,v'.
+     Not found 'build/main.d.f,v'.
+     Trying pattern rule '%:: RCS/%,v' with stem 'main.d.f'.
+     Trying implicit prerequisite 'build/RCS/main.d.f,v'.
+     Not found 'build/RCS/main.d.f,v'.
+     Trying pattern rule '%:: RCS/%' with stem 'main.d.f'.
+     Trying implicit prerequisite 'build/RCS/main.d.f'.
+     Not found 'build/RCS/main.d.f'.
+     Trying pattern rule '%:: s.%' with stem 'main.d.f'.
+     Trying implicit prerequisite 'build/s.main.d.f'.
+     Not found 'build/s.main.d.f'.
+     Trying pattern rule '%:: SCCS/s.%' with stem 'main.d.f'.
+     Trying implicit prerequisite 'build/SCCS/s.main.d.f'.
+     Not found 'build/SCCS/s.main.d.f'.
+     Trying harder.
+     Trying pattern rule '%.f: %.F' with stem 'main.d'.
+     Trying implicit prerequisite 'build/main.d.F'.
+     Looking for a rule with intermediate file 'build/main.d.F'.
+      Avoiding implicit rule recursion for rule '%: %.o'.
+      Avoiding implicit rule recursion for rule '%.o: %.f'.
+      Avoiding implicit rule recursion for rule '%.f: %.F'.
+      Trying pattern rule '%:: %,v' with stem 'main.d.F'.
+      Trying implicit prerequisite 'build/main.d.F,v'.
+      Not found 'build/main.d.F,v'.
+      Trying pattern rule '%:: RCS/%,v' with stem 'main.d.F'.
+      Trying implicit prerequisite 'build/RCS/main.d.F,v'.
+      Not found 'build/RCS/main.d.F,v'.
+      Trying pattern rule '%:: RCS/%' with stem 'main.d.F'.
+      Trying implicit prerequisite 'build/RCS/main.d.F'.
+      Not found 'build/RCS/main.d.F'.
+      Trying pattern rule '%:: s.%' with stem 'main.d.F'.
+      Trying implicit prerequisite 'build/s.main.d.F'.
+      Not found 'build/s.main.d.F'.
+      Trying pattern rule '%:: SCCS/s.%' with stem 'main.d.F'.
+      Trying implicit prerequisite 'build/SCCS/s.main.d.F'.
+      Not found 'build/SCCS/s.main.d.F'.
+      Trying harder.
+     No implicit rule found for 'build/main.d.F'.
+     Rejecting rule '%.f: %.F' due to impossible prerequisite 'build/main.d.F'.
+     Trying pattern rule '%.f: %.r' with stem 'main.d'.
+     Trying implicit prerequisite 'build/main.d.r'.
+     Looking for a rule with intermediate file 'build/main.d.r'.
+      Avoiding implicit rule recursion for rule '%: %.o'.
+      Avoiding implicit rule recursion for rule '%.o: %.f'.
+      Avoiding implicit rule recursion for rule '%.f: %.r'.
+      Trying pattern rule '%.r: %.l' with stem 'main.d'.
+      Rejecting rule '%.r: %.l' due to impossible implicit prerequisite 'build/main.d.l'.
+      Trying pattern rule '%:: %,v' with stem 'main.d.r'.
+      Trying implicit prerequisite 'build/main.d.r,v'.
+      Not found 'build/main.d.r,v'.
+      Trying pattern rule '%:: RCS/%,v' with stem 'main.d.r'.
+      Trying implicit prerequisite 'build/RCS/main.d.r,v'.
+      Not found 'build/RCS/main.d.r,v'.
+      Trying pattern rule '%:: RCS/%' with stem 'main.d.r'.
+      Trying implicit prerequisite 'build/RCS/main.d.r'.
+      Not found 'build/RCS/main.d.r'.
+      Trying pattern rule '%:: s.%' with stem 'main.d.r'.
+      Trying implicit prerequisite 'build/s.main.d.r'.
+      Not found 'build/s.main.d.r'.
+      Trying pattern rule '%:: SCCS/s.%' with stem 'main.d.r'.
+      Trying implicit prerequisite 'build/SCCS/s.main.d.r'.
+      Not found 'build/SCCS/s.main.d.r'.
+      Trying harder.
+     No implicit rule found for 'build/main.d.r'.
+     Rejecting rule '%.f: %.r' due to impossible prerequisite 'build/main.d.r'.
+    No implicit rule found for 'build/main.d.f'.
+    Rejecting rule '%.o: %.f' due to impossible prerequisite 'build/main.d.f'.
+    Trying pattern rule '%.o: %.F' with stem 'main.d'.
+    Rejecting rule '%.o: %.F' due to impossible implicit prerequisite 'build/main.d.F'.
+    Trying pattern rule '%.o: %.m' with stem 'main.d'.
+    Trying implicit prerequisite 'build/main.d.m'.
+    Looking for a rule with intermediate file 'build/main.d.m'.
+     Avoiding implicit rule recursion for rule '%: %.o'.
+     Avoiding implicit rule recursion for rule '%.o: %.m'.
+     Trying pattern rule '%.m: %.ym' with stem 'main.d'.
+     Trying implicit prerequisite 'build/main.d.ym'.
+     Not found 'build/main.d.ym'.
+     Trying pattern rule '%:: %,v' with stem 'main.d.m'.
+     Trying implicit prerequisite 'build/main.d.m,v'.
+     Not found 'build/main.d.m,v'.
+     Trying pattern rule '%:: RCS/%,v' with stem 'main.d.m'.
+     Trying implicit prerequisite 'build/RCS/main.d.m,v'.
+     Not found 'build/RCS/main.d.m,v'.
+     Trying pattern rule '%:: RCS/%' with stem 'main.d.m'.
+     Trying implicit prerequisite 'build/RCS/main.d.m'.
+     Not found 'build/RCS/main.d.m'.
+     Trying pattern rule '%:: s.%' with stem 'main.d.m'.
+     Trying implicit prerequisite 'build/s.main.d.m'.
+     Not found 'build/s.main.d.m'.
+     Trying pattern rule '%:: SCCS/s.%' with stem 'main.d.m'.
+     Trying implicit prerequisite 'build/SCCS/s.main.d.m'.
+     Not found 'build/SCCS/s.main.d.m'.
+     Trying harder.
+     Trying pattern rule '%.m: %.ym' with stem 'main.d'.
+     Trying implicit prerequisite 'build/main.d.ym'.
+     Looking for a rule with intermediate file 'build/main.d.ym'.
+      Avoiding implicit rule recursion for rule '%: %.o'.
+      Avoiding implicit rule recursion for rule '%.o: %.m'.
+      Avoiding implicit rule recursion for rule '%.m: %.ym'.
+      Trying pattern rule '%:: %,v' with stem 'main.d.ym'.
+      Trying implicit prerequisite 'build/main.d.ym,v'.
+      Not found 'build/main.d.ym,v'.
+      Trying pattern rule '%:: RCS/%,v' with stem 'main.d.ym'.
+      Trying implicit prerequisite 'build/RCS/main.d.ym,v'.
+      Not found 'build/RCS/main.d.ym,v'.
+      Trying pattern rule '%:: RCS/%' with stem 'main.d.ym'.
+      Trying implicit prerequisite 'build/RCS/main.d.ym'.
+      Not found 'build/RCS/main.d.ym'.
+      Trying pattern rule '%:: s.%' with stem 'main.d.ym'.
+      Trying implicit prerequisite 'build/s.main.d.ym'.
+      Not found 'build/s.main.d.ym'.
+      Trying pattern rule '%:: SCCS/s.%' with stem 'main.d.ym'.
+      Trying implicit prerequisite 'build/SCCS/s.main.d.ym'.
+      Not found 'build/SCCS/s.main.d.ym'.
+      Trying harder.
+     No implicit rule found for 'build/main.d.ym'.
+     Rejecting rule '%.m: %.ym' due to impossible prerequisite 'build/main.d.ym'.
+    No implicit rule found for 'build/main.d.m'.
+    Rejecting rule '%.o: %.m' due to impossible prerequisite 'build/main.d.m'.
+    Trying pattern rule '%.o: %.r' with stem 'main.d'.
+    Rejecting rule '%.o: %.r' due to impossible implicit prerequisite 'build/main.d.r'.
+    Trying pattern rule '%.o: %.s' with stem 'main.d'.
+    Trying implicit prerequisite 'build/main.d.s'.
+    Looking for a rule with intermediate file 'build/main.d.s'.
+     Avoiding implicit rule recursion for rule '%: %.o'.
+     Avoiding implicit rule recursion for rule '%.o: %.s'.
+     Trying pattern rule '%.s: %.S' with stem 'main.d'.
+     Trying implicit prerequisite 'build/main.d.S'.
+     Not found 'build/main.d.S'.
+     Trying pattern rule '%:: %,v' with stem 'main.d.s'.
+     Trying implicit prerequisite 'build/main.d.s,v'.
+     Not found 'build/main.d.s,v'.
+     Trying pattern rule '%:: RCS/%,v' with stem 'main.d.s'.
+     Trying implicit prerequisite 'build/RCS/main.d.s,v'.
+     Not found 'build/RCS/main.d.s,v'.
+     Trying pattern rule '%:: RCS/%' with stem 'main.d.s'.
+     Trying implicit prerequisite 'build/RCS/main.d.s'.
+     Not found 'build/RCS/main.d.s'.
+     Trying pattern rule '%:: s.%' with stem 'main.d.s'.
+     Trying implicit prerequisite 'build/s.main.d.s'.
+     Not found 'build/s.main.d.s'.
+     Trying pattern rule '%:: SCCS/s.%' with stem 'main.d.s'.
+     Trying implicit prerequisite 'build/SCCS/s.main.d.s'.
+     Not found 'build/SCCS/s.main.d.s'.
+     Trying harder.
+     Trying pattern rule '%.s: %.S' with stem 'main.d'.
+     Trying implicit prerequisite 'build/main.d.S'.
+     Looking for a rule with intermediate file 'build/main.d.S'.
+      Avoiding implicit rule recursion for rule '%: %.o'.
+      Avoiding implicit rule recursion for rule '%.o: %.s'.
+      Avoiding implicit rule recursion for rule '%.s: %.S'.
+      Trying pattern rule '%:: %,v' with stem 'main.d.S'.
+      Trying implicit prerequisite 'build/main.d.S,v'.
+      Not found 'build/main.d.S,v'.
+      Trying pattern rule '%:: RCS/%,v' with stem 'main.d.S'.
+      Trying implicit prerequisite 'build/RCS/main.d.S,v'.
+      Not found 'build/RCS/main.d.S,v'.
+      Trying pattern rule '%:: RCS/%' with stem 'main.d.S'.
+      Trying implicit prerequisite 'build/RCS/main.d.S'.
+      Not found 'build/RCS/main.d.S'.
+      Trying pattern rule '%:: s.%' with stem 'main.d.S'.
+      Trying implicit prerequisite 'build/s.main.d.S'.
+      Not found 'build/s.main.d.S'.
+      Trying pattern rule '%:: SCCS/s.%' with stem 'main.d.S'.
+      Trying implicit prerequisite 'build/SCCS/s.main.d.S'.
+      Not found 'build/SCCS/s.main.d.S'.
+      Trying harder.
+     No implicit rule found for 'build/main.d.S'.
+     Rejecting rule '%.s: %.S' due to impossible prerequisite 'build/main.d.S'.
+    No implicit rule found for 'build/main.d.s'.
+    Rejecting rule '%.o: %.s' due to impossible prerequisite 'build/main.d.s'.
+    Trying pattern rule '%.o: %.S' with stem 'main.d'.
+    Rejecting rule '%.o: %.S' due to impossible implicit prerequisite 'build/main.d.S'.
+    Trying pattern rule '%.o: %.mod' with stem 'main.d'.
+    Trying implicit prerequisite 'build/main.d.mod'.
+    Looking for a rule with intermediate file 'build/main.d.mod'.
+     Avoiding implicit rule recursion for rule '%: %.o'.
+     Avoiding implicit rule recursion for rule '%.o: %.mod'.
+     Trying pattern rule '%:: %,v' with stem 'main.d.mod'.
+     Trying implicit prerequisite 'build/main.d.mod,v'.
+     Not found 'build/main.d.mod,v'.
+     Trying pattern rule '%:: RCS/%,v' with stem 'main.d.mod'.
+     Trying implicit prerequisite 'build/RCS/main.d.mod,v'.
+     Not found 'build/RCS/main.d.mod,v'.
+     Trying pattern rule '%:: RCS/%' with stem 'main.d.mod'.
+     Trying implicit prerequisite 'build/RCS/main.d.mod'.
+     Not found 'build/RCS/main.d.mod'.
+     Trying pattern rule '%:: s.%' with stem 'main.d.mod'.
+     Trying implicit prerequisite 'build/s.main.d.mod'.
+     Not found 'build/s.main.d.mod'.
+     Trying pattern rule '%:: SCCS/s.%' with stem 'main.d.mod'.
+     Trying implicit prerequisite 'build/SCCS/s.main.d.mod'.
+     Not found 'build/SCCS/s.main.d.mod'.
+     Trying harder.
+    No implicit rule found for 'build/main.d.mod'.
+    Rejecting rule '%.o: %.mod' due to impossible prerequisite 'build/main.d.mod'.
+   No implicit rule found for 'build/main.d.o'.
+   Rejecting rule '%: %.o' due to impossible prerequisite 'build/main.d.o'.
+   Trying pattern rule '%: %.c' with stem 'main.d'.
+   Rejecting rule '%: %.c' due to impossible implicit prerequisite 'build/main.d.c'.
+   Trying pattern rule '%: %.cc' with stem 'main.d'.
+   Rejecting rule '%: %.cc' due to impossible implicit prerequisite 'build/main.d.cc'.
+   Trying pattern rule '%: %.C' with stem 'main.d'.
+   Rejecting rule '%: %.C' due to impossible implicit prerequisite 'build/main.d.C'.
+   Trying pattern rule '%: %.cpp' with stem 'main.d'.
+   Rejecting rule '%: %.cpp' due to impossible implicit prerequisite 'build/main.d.cpp'.
+   Trying pattern rule '%: %.p' with stem 'main.d'.
+   Rejecting rule '%: %.p' due to impossible implicit prerequisite 'build/main.d.p'.
+   Trying pattern rule '%: %.f' with stem 'main.d'.
+   Rejecting rule '%: %.f' due to impossible implicit prerequisite 'build/main.d.f'.
+   Trying pattern rule '%: %.F' with stem 'main.d'.
+   Rejecting rule '%: %.F' due to impossible implicit prerequisite 'build/main.d.F'.
+   Trying pattern rule '%: %.m' with stem 'main.d'.
+   Rejecting rule '%: %.m' due to impossible implicit prerequisite 'build/main.d.m'.
+   Trying pattern rule '%: %.r' with stem 'main.d'.
+   Rejecting rule '%: %.r' due to impossible implicit prerequisite 'build/main.d.r'.
+   Trying pattern rule '%: %.s' with stem 'main.d'.
+   Rejecting rule '%: %.s' due to impossible implicit prerequisite 'build/main.d.s'.
+   Trying pattern rule '%: %.S' with stem 'main.d'.
+   Rejecting rule '%: %.S' due to impossible implicit prerequisite 'build/main.d.S'.
+   Trying pattern rule '%: %.mod' with stem 'main.d'.
+   Rejecting rule '%: %.mod' due to impossible implicit prerequisite 'build/main.d.mod'.
+   Trying pattern rule '%: %.sh' with stem 'main.d'.
+   Trying implicit prerequisite 'build/main.d.sh'.
+   Looking for a rule with intermediate file 'build/main.d.sh'.
+    Avoiding implicit rule recursion for rule '%: %.sh'.
+    Trying pattern rule '%:: %,v' with stem 'main.d.sh'.
+    Trying implicit prerequisite 'build/main.d.sh,v'.
+    Not found 'build/main.d.sh,v'.
+    Trying pattern rule '%:: RCS/%,v' with stem 'main.d.sh'.
+    Trying implicit prerequisite 'build/RCS/main.d.sh,v'.
+    Not found 'build/RCS/main.d.sh,v'.
+    Trying pattern rule '%:: RCS/%' with stem 'main.d.sh'.
+    Trying implicit prerequisite 'build/RCS/main.d.sh'.
+    Not found 'build/RCS/main.d.sh'.
+    Trying pattern rule '%:: s.%' with stem 'main.d.sh'.
+    Trying implicit prerequisite 'build/s.main.d.sh'.
+    Not found 'build/s.main.d.sh'.
+    Trying pattern rule '%:: SCCS/s.%' with stem 'main.d.sh'.
+    Trying implicit prerequisite 'build/SCCS/s.main.d.sh'.
+    Not found 'build/SCCS/s.main.d.sh'.
+    Trying harder.
+   No implicit rule found for 'build/main.d.sh'.
+   Rejecting rule '%: %.sh' due to impossible prerequisite 'build/main.d.sh'.
+  No implicit rule found for 'build/main.d'.
+ Finished prerequisites of target file 'build/main.d'.
+ No need to remake target 'build/main.d'.
+Updating goal targets....
+Considering target file 'build/main.o'.
+ Looking for an implicit rule for 'build/main.o'.
+  Trying pattern rule 'build/%.o: src/%.c' with stem 'main'.
+  Trying implicit prerequisite 'src/main.c'.
+  'src/main.c' ought to exist.
+ Found implicit rule 'build/%.o: src/%.c' for 'build/main.o'.
+ Considering target file 'src/main.c'.
+  Looking for an implicit rule for 'src/main.c'.
+   Trying pattern rule '%.c: %.y' with stem 'main'.
+   Trying implicit prerequisite 'src/main.y'.
+   Not found 'src/main.y'.
+   Trying pattern rule '%.c: %.l' with stem 'main'.
+   Trying implicit prerequisite 'src/main.l'.
+   Not found 'src/main.l'.
+   Trying pattern rule '%.c: %.w' with stem 'main'.
+   Trying implicit prerequisite 'src/main.w'.
+   Not found 'src/main.w'.
+   Trying pattern rule '%.c: %.w %.ch' with stem 'main'.
+   Trying implicit prerequisite 'src/main.w'.
+   Not found 'src/main.w'.
+   Trying pattern rule '%:: %,v' with stem 'main.c'.
+   Trying implicit prerequisite 'src/main.c,v'.
+   Not found 'src/main.c,v'.
+   Trying pattern rule '%:: RCS/%,v' with stem 'main.c'.
+   Trying implicit prerequisite 'src/RCS/main.c,v'.
+   Not found 'src/RCS/main.c,v'.
+   Trying pattern rule '%:: RCS/%' with stem 'main.c'.
+   Trying implicit prerequisite 'src/RCS/main.c'.
+   Not found 'src/RCS/main.c'.
+   Trying pattern rule '%:: s.%' with stem 'main.c'.
+   Trying implicit prerequisite 'src/s.main.c'.
+   Not found 'src/s.main.c'.
+   Trying pattern rule '%:: SCCS/s.%' with stem 'main.c'.
+   Trying implicit prerequisite 'src/SCCS/s.main.c'.
+   Not found 'src/SCCS/s.main.c'.
+   Trying harder.
+   Trying pattern rule '%.c: %.y' with stem 'main'.
+   Trying implicit prerequisite 'src/main.y'.
+   Looking for a rule with intermediate file 'src/main.y'.
+    Avoiding implicit rule recursion for rule '%.c: %.y'.
+    Trying pattern rule '%:: %,v' with stem 'main.y'.
+    Trying implicit prerequisite 'src/main.y,v'.
+    Not found 'src/main.y,v'.
+    Trying pattern rule '%:: RCS/%,v' with stem 'main.y'.
+    Trying implicit prerequisite 'src/RCS/main.y,v'.
+    Not found 'src/RCS/main.y,v'.
+    Trying pattern rule '%:: RCS/%' with stem 'main.y'.
+    Trying implicit prerequisite 'src/RCS/main.y'.
+    Not found 'src/RCS/main.y'.
+    Trying pattern rule '%:: s.%' with stem 'main.y'.
+    Trying implicit prerequisite 'src/s.main.y'.
+    Not found 'src/s.main.y'.
+    Trying pattern rule '%:: SCCS/s.%' with stem 'main.y'.
+    Trying implicit prerequisite 'src/SCCS/s.main.y'.
+    Not found 'src/SCCS/s.main.y'.
+    Trying harder.
+   No implicit rule found for 'src/main.y'.
+   Rejecting rule '%.c: %.y' due to impossible prerequisite 'src/main.y'.
+   Trying pattern rule '%.c: %.l' with stem 'main'.
+   Trying implicit prerequisite 'src/main.l'.
+   Looking for a rule with intermediate file 'src/main.l'.
+    Avoiding implicit rule recursion for rule '%.c: %.l'.
+    Trying pattern rule '%:: %,v' with stem 'main.l'.
+    Trying implicit prerequisite 'src/main.l,v'.
+    Not found 'src/main.l,v'.
+    Trying pattern rule '%:: RCS/%,v' with stem 'main.l'.
+    Trying implicit prerequisite 'src/RCS/main.l,v'.
+    Not found 'src/RCS/main.l,v'.
+    Trying pattern rule '%:: RCS/%' with stem 'main.l'.
+    Trying implicit prerequisite 'src/RCS/main.l'.
+    Not found 'src/RCS/main.l'.
+    Trying pattern rule '%:: s.%' with stem 'main.l'.
+    Trying implicit prerequisite 'src/s.main.l'.
+    Not found 'src/s.main.l'.
+    Trying pattern rule '%:: SCCS/s.%' with stem 'main.l'.
+    Trying implicit prerequisite 'src/SCCS/s.main.l'.
+    Not found 'src/SCCS/s.main.l'.
+    Trying harder.
+   No implicit rule found for 'src/main.l'.
+   Rejecting rule '%.c: %.l' due to impossible prerequisite 'src/main.l'.
+   Trying pattern rule '%.c: %.w' with stem 'main'.
+   Trying implicit prerequisite 'src/main.w'.
+   Looking for a rule with intermediate file 'src/main.w'.
+    Avoiding implicit rule recursion for rule '%.c: %.w'.
+    Trying pattern rule '%:: %,v' with stem 'main.w'.
+    Trying implicit prerequisite 'src/main.w,v'.
+    Not found 'src/main.w,v'.
+    Trying pattern rule '%:: RCS/%,v' with stem 'main.w'.
+    Trying implicit prerequisite 'src/RCS/main.w,v'.
+    Not found 'src/RCS/main.w,v'.
+    Trying pattern rule '%:: RCS/%' with stem 'main.w'.
+    Trying implicit prerequisite 'src/RCS/main.w'.
+    Not found 'src/RCS/main.w'.
+    Trying pattern rule '%:: s.%' with stem 'main.w'.
+    Trying implicit prerequisite 'src/s.main.w'.
+    Not found 'src/s.main.w'.
+    Trying pattern rule '%:: SCCS/s.%' with stem 'main.w'.
+    Trying implicit prerequisite 'src/SCCS/s.main.w'.
+    Not found 'src/SCCS/s.main.w'.
+    Trying harder.
+   No implicit rule found for 'src/main.w'.
+   Rejecting rule '%.c: %.w' due to impossible prerequisite 'src/main.w'.
+   Trying pattern rule '%.c: %.w %.ch' with stem 'main'.
+   Rejecting rule '%.c: %.w %.ch' due to impossible implicit prerequisite 'src/main.w'.
+  No implicit rule found for 'src/main.c'.
+ Finished prerequisites of target file 'src/main.c'.
+ No need to remake target 'src/main.c'.
+ Pruning file 'src/main.c'.
+ Considering target file 'bin/'.
+ Finished prerequisites of target file 'bin/'.
+ No need to remake target 'bin/'.
+ Considering target file 'build/'.
+ Finished prerequisites of target file 'build/'.
+ No need to remake target 'build/'.
+Finished prerequisites of target file 'build/main.o'.
+ Prerequisite 'src/main.c' is older than target 'build/main.o'.
+ Prerequisite 'src/main.c' is older than target 'build/main.o'.
+ Prerequisite 'bin/' is order-only for target 'build/main.o'.
+ Prerequisite 'build/' is order-only for target 'build/main.o'.
+No need to remake target 'build/main.o'.
+make: 'build/main.o' is up to date.

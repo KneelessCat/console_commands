@@ -1,0 +1,12 @@
+# Lock and temp files
+*.swp
+.~
+thumbs.db
+
+# Object files
+*.o
+*.obj
+
+# Executables
+bin/*
+build/*
